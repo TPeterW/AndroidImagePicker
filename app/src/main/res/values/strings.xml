@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Image Picker</string>
+
+    <!--Toast-->
+    <string name="storage_not_available">Cannot access local storage</string>
+    <string name="no_image_scanned">No Image Found</string>
+
+    <!--Dialog-->
+    <string name="loading_images">Loading...</string>
+
+    <!--TextView-->
+    <string name="all_images">All Images</string>
+
+</resources>
