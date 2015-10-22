@@ -1,4 +1,4 @@
-package com.peter.imagepicker;
+package com.peter.imagepickerlibrary;
 
 import android.content.Context;
 import android.graphics.drawable.BitmapDrawable;
@@ -15,8 +15,8 @@ import android.widget.ListView;
 import android.widget.PopupWindow;
 import android.widget.TextView;
 
-import com.peter.imagepicker.model.FolderModel;
-import com.peter.imagepicker.util.ImageLoader;
+import com.peter.imagepickerlibrary.model.FolderModel;
+import com.peter.imagepickerlibrary.utils.ImageLoader;
 
 import java.util.List;
 

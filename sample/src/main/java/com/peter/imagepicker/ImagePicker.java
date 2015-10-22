@@ -1,37 +1,25 @@
 package com.peter.imagepicker;
 
 import android.app.ProgressDialog;
-import android.content.ContentProvider;
 import android.content.ContentResolver;
-import android.content.Context;
-import android.content.Intent;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Environment;
-import android.os.Message;
-import android.os.PersistableBundle;
 import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 import android.view.WindowManager;
-import android.widget.BaseAdapter;
-import android.widget.Button;
 import android.widget.GridView;
-import android.widget.ImageButton;
-import android.widget.ImageView;
 import android.widget.PopupWindow;
-import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.peter.imagepicker.model.FolderModel;
-import com.peter.imagepicker.util.ImageAdapter;
-import com.peter.imagepicker.util.ImageLoader;
+import com.peter.imagepickerlibrary.model.FolderModel;
+import com.peter.imagepickerlibrary.utils.ImageAdapter;
+import com.peter.imagepickerlibrary.ListDirPopupWindow;
 
 import java.io.File;
 import java.io.FilenameFilter;

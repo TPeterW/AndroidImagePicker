@@ -1,4 +1,4 @@
-package com.peter.imagepicker.util;
+package com.peter.imagepickerlibrary.utils;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;

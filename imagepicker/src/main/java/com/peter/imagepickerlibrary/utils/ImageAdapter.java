@@ -1,4 +1,4 @@
-package com.peter.imagepicker.util;
+package com.peter.imagepickerlibrary.utils;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -11,7 +11,7 @@ import android.widget.BaseAdapter;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 
-import com.peter.imagepicker.R;
+import com.peter.imagepickerlibrary.R;
 
 import java.util.HashSet;
 import java.util.List;

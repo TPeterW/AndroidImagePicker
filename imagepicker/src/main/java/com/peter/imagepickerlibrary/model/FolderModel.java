@@ -1,4 +1,4 @@
-package com.peter.imagepicker.model;
+package com.peter.imagepickerlibrary.model;
 
 /**
  * Created by Peter on 9/13/15.
