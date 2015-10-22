@@ -5,7 +5,7 @@ android {
     buildToolsVersion "23.0.1"
     defaultConfig {
         applicationId "com.peter.imagepicker"
-        minSdkVersion 16
+        minSdkVersion 12
         targetSdkVersion 23
         versionCode 1
         versionName "1.0"
@@ -18,9 +18,13 @@ android {
     }
     productFlavors {
     }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_6
+        targetCompatibility JavaVersion.VERSION_1_6
+    }
 }
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile 'com.android.support:appcompat-v7:23.0.1'
+    compile 'com.android.support:appcompat-v7:23.1.0'
 }
