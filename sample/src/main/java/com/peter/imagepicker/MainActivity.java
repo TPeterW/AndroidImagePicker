@@ -3,6 +3,7 @@ package com.peter.imagepicker;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Build;
+import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.KeyEvent;
@@ -69,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Override
-    public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         switch (requestCode){
             case MY_PERMISSION_REQUEST_READ_EXTERNAL_STORAGE:
                 if(grantResults[0] == PackageManager.PERMISSION_GRANTED){
@@ -82,6 +83,5 @@ public class MainActivity extends AppCompatActivity {
                 }
                 break;
         }
-        return;
     }
 }
