@@ -73,12 +73,11 @@ public class MainActivity extends AppCompatActivity {
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         switch (requestCode){
             case MY_PERMISSION_REQUEST_READ_EXTERNAL_STORAGE:
-                if(grantResults[0] == PackageManager.PERMISSION_GRANTED){
+                if (grantResults[0] == PackageManager.PERMISSION_GRANTED){
                     button_pick.setEnabled(true);
                     Intent intent = new Intent(MainActivity.this, ImagePicker.class);
                     startActivity(intent);
-                }
-                else {
+                } else {
                     button_pick.setEnabled(false);
                 }
                 break;
